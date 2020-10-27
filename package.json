@@ -1,0 +1,31 @@
+{
+  "name": "rollup-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup --config ./cfg/rollup.config.js",
+    "build": "rollup --config ./cfg/rollup.config.js --env.production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichenzhifan/rollup-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ichenzhifan/rollup-demo/issues"
+  },
+  "homepage": "https://github.com/ichenzhifan/rollup-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "the-answer": "^1.0.0"
+  }
+}
